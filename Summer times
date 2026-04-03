@@ -1,0 +1,10 @@
+# Program to check if temperature is suitable for light clothes
+
+temperature = float(input("Enter the temperature in °C: "))
+
+if temperature >= 25:
+    print("It is warm. You can wear light and soft clothes.")
+elif temperature >= 15 and temperature < 25:
+    print("It is moderate. Wear light clothes but keep a jacket just in case.")
+else:
+    print("It is cold. Wear warm clothes like a jacket or pullover.")
