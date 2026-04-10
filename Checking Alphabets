@@ -1,0 +1,12 @@
+# Program to check if a character is an alphabet
+
+char = input("Enter a character: ")
+
+# Check if input is a single character
+if len(char) == 1:
+    if char.isalpha():
+        print("The character is an alphabet.")
+    else:
+        print("The character is NOT an alphabet.")
+else:
+    print("Please enter only a single character.")
