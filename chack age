@@ -1,0 +1,6 @@
+age = int(input("Enter student's age: "))
+
+if age >= 10 and age <= 20:
+    print("Student is allowed to enroll.")
+else:
+    print("Student is NOT allowed to enroll.")
